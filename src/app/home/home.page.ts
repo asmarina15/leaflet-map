@@ -15,7 +15,7 @@ export class HomePage {
 
   }
   ionViewDidEnter() {
-    this.map = L.map('mapId').setView([35.7643, -580081], 14);
+    this.map = L.map('mapId').setView([35.7643, -5.80081], 14);
 
     // Menambahkan TileLayer
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
